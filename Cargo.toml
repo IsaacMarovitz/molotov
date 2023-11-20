@@ -2,5 +2,12 @@
 name = "molotov"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3"
+authors = ["Isaac Marovitz <isaacmarovitz@gmail.com>"]
+description = "Not an emulator for Windows on POSIX"
+readme = "README.md"
+repository = "https://github.com/IsaacMarovitz/molotov"
 
 [dependencies]
+clap = { version = "4.4.8", features = ["derive"] }
+pe-parser = "0.5.0"

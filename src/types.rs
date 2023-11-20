@@ -4,6 +4,7 @@ pub(crate) type BYTE = u8;
 pub(crate) type CCHAR = i8;
 pub(crate) type CHAR = i8;
 pub(crate) type UCHAR = u8;
+pub(crate) type WCHAR = u16;
 pub(crate) type DWORD = u32;
 pub(crate) type DWORDLONG = u64;
 pub(crate) type DWORD32 = u32;

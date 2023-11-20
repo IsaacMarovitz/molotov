@@ -10,4 +10,4 @@ repository = "https://github.com/IsaacMarovitz/molotov"
 
 [dependencies]
 clap = { version = "4.4.8", features = ["derive"] }
-pe-parser = "0.5.0"
+pe-parser = "0.5.1"

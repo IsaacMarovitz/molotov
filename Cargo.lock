@@ -173,9 +173,9 @@ dependencies = [
 
 [[package]]
 name = "pe-parser"
-version = "0.5.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "381afb861e665a5def060ebb06165256a4ec21ab4acb8717179426fb00b66d29"
+checksum = "349908736c3bd4926e2e6a521b195cca1449f9dbb55fe1b13b6c0f364df85757"
 dependencies = [
  "bitflags",
  "bytemuck",

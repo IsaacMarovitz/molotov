@@ -1,5 +1,5 @@
 #[allow(non_camel_case_types)]
-enum NTSTATUS {
+pub enum NTSTATUS {
     // STATUS_WAIT_0, STATUS_SEVERITY_SUCCESS
     STATUS_SUCCESS = 0x00000000,
     // STATUS_WAIT_1

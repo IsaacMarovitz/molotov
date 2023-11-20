@@ -3,8 +3,8 @@ use crate::dlls::ntdll::osversioninfo::{RTL_OSVERSIONINFOEXW};
 use std::mem;
 
 const CURRENT_VERSION: RTL_OSVERSIONINFOEXW = RTL_OSVERSIONINFOEXW {
-    dwOSVersionInfoSize: 0,
-    dwMajorVersion: 0,
+    dwOSVersionInfoSize: mem::size_of::<RTL_OSVERSIONINFOEXW>() as u32,
+    dwMajorVersion: 10,
     dwMinorVersion: 0,
     dwBuildNumber: 0,
     dwPlatformId: 0,

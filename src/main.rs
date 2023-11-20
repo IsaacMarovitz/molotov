@@ -6,6 +6,7 @@ use std::env::consts::ARCH;
 
 mod dlls;
 mod loader;
+mod types;
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]

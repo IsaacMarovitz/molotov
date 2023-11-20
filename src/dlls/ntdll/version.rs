@@ -23,6 +23,7 @@ pub fn RtlGetVersion(info: *mut RTL_OSVERSIONINFOEXW) -> NTSTATUS {
         info.dwMajorVersion = CURRENT_VERSION.dwMajorVersion;
         info.dwMinorVersion = CURRENT_VERSION.dwMinorVersion;
         info.dwPlatformId = CURRENT_VERSION.dwPlatformId;
+        info.szCSDVersion = CURRENT_VERSION.szCSDVersion;
         if info.dwOSVersionInfoSize == mem::size_of::<RTL_OSVERSIONINFOEXW>() as u32 {
             info.wServicePackMajor = CURRENT_VERSION.wServicePackMajor;
             info.wServicePackMinor = CURRENT_VERSION.wServicePackMinor;
